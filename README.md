@@ -40,76 +40,74 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
 ## ⚙️ Getting Started
 
 ### ✅ 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/atm-interface.git
-cd atm-interface
-
+    bash
+    git clone https://github.com/your-username/atm-interface.git
+    cd atm-interface
 ### ✅ 2. Create & Activate Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+    bash
+    Copy
+    Edit
+    python -m venv venv
+    source venv/bin/activate      # On Windows: venv\Scripts\activate
 
 ### ✅ 3. Install Required Libraries
-bash
-Copy
-Edit
-pip install -r requirements.txt
-✅ 4. Setup MySQL Database
-Open MySQL and create a new database:
-
-sql
-Copy
-Edit
-CREATE DATABASE atm_db;
-Run the schema file to create tables and insert sample data:
-
-bash
-Copy
-Edit
-mysql -u your_user -p atm_db < database/schema.sql
-✅ 5. Configure DB in db_config.py
-python
-Copy
-Edit
-db_config = {
-    'host': 'localhost',
-    'user': 'your_mysql_user',
-    'password': 'your_mysql_password',
-    'database': 'atm_db'
-}
-✅ 6. Run the Flask App
-bash
-Copy
-Edit
-python app.py
-Now open your browser and visit: http://localhost:5000
-
-🔑 Sample Login Credentials (for Testing)
-Username	Password	PIN
-user1	pass123	1234
-user2	pass456	5678
-
-You can add or modify users directly in the database using SQL or phpMyAdmin.
+    bash
+    Copy
+    Edit
+    pip install -r requirements.txt
+### ✅ 4. Setup MySQL Database
+    Open MySQL and create a new database:
+    
+    sql
+    Copy
+    Edit
+    CREATE DATABASE atm_db;
+    Run the schema file to create tables and insert sample data:
+    
+    bash
+    Copy
+    Edit
+    mysql -u your_user -p atm_db < database/schema.sql
+### ✅ 5. Configure DB in db_config.py
+    python
+    Copy
+    Edit
+    db_config = {
+        'host': 'localhost',
+        'user': 'your_mysql_user',
+        'password': 'your_mysql_password',
+        'database': 'atm_db'
+    }
+### ✅ 6. Run the Flask App
+    bash
+    Copy
+    Edit
+    python app.py
+    Now open your browser and visit: http://localhost:5000
+    
+    🔑 Sample Login Credentials (for Testing)
+    Username	Password	PIN
+    user1	pass123	1234
+    user2	pass456	5678
+    
+    You can add or modify users directly in the database using SQL or phpMyAdmin.
 
 📦 requirements.txt
-text
-Copy
-Edit
-Flask
-mysql-connector-python
+    text
+    Copy
+    Edit
+    Flask
+    mysql-connector-python
 📌 Future Enhancements
-Multilingual UI
-
-OTP-based login security
-
-Mobile-responsive interface
-
-Cloud deployment (Render / Heroku)
-
-REST API integration for mobile clients
+    Multilingual UI
+    
+    OTP-based login security
+    
+    Mobile-responsive interface
+    
+    Cloud deployment (Render / Heroku)
+    
+    REST API integration for mobile clients
 
 👩‍💻 Author
 Manasa
