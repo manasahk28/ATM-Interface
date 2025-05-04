@@ -19,8 +19,10 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
 - **Backend:** Python, Flask
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL
-- **Testing:** JUnit (for backend)
-- **Version Control:** Git & GitHub
+- **Tools & Libraries:** 
+  - `mysql-connector-python`
+  - Flask templates and routes
+  - Git & GitHub for version control
 
 ## 📂 Project Structure
    atm-interface/
