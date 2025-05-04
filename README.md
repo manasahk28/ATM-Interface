@@ -44,13 +44,15 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
 ```bash
 git clone https://github.com/your-username/atm-interface.git
 cd atm-interface
-✅ 2. Create & Activate Virtual Environment
+
+### ✅ 2. Create & Activate Virtual Environment
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
-✅ 3. Install Required Libraries
+
+### ✅ 3. Install Required Libraries
 bash
 Copy
 Edit
