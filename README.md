@@ -50,10 +50,10 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
     pip install -r requirements.txt
     
 ### ✅ 4. Setup MySQL Database
-   ##### Open MySQL and create a new database:
+   ###### Open MySQL and create a new database:
 
     CREATE DATABASE atm_db;
-   ##### Run the schema file to create tables and insert sample data:
+   ###### Run the schema file to create tables and insert sample data:
 
     mysql -u your_user -p atm_db < database/schema.sql
     
@@ -66,28 +66,28 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
     }
 ### ✅ 6. Run the Flask App
     python app.py
-    Now open your browser and visit: http://localhost:5000
+   ###### Now open your browser and visit: http://localhost:5000
     
-    🔑 Sample Login Credentials (for Testing)
-    Username	Password	PIN
-    user1    	pass123	  1234
-    user2	    pass456	  5678
+   ###### 🔑 Sample Login Credentials (for Testing)
+   ##### Username	Password	PIN
+   ###### user1    	pass123	  1234
+   ###### user2	    pass456	  5678
     
-    You can add or modify users directly in the database using SQL or phpMyAdmin.
+   ###### You can add or modify users directly in the database using SQL or phpMyAdmin.
 
 ### 📦 requirements.txt
     Flask
     mysql-connector-python
     
 ### 📌 Future Enhancements
-    1. Multilingual UI
+    1.Multilingual UI
     2.OTP-based login security
     3.Mobile-responsive interface
     4.Cloud deployment (Render / Heroku)  
     5.REST API integration for mobile clients
 
 ## 👩‍💻 Author
-Manasa
+Manasa H K,
 B.Tech CSE Student, RV University, Bengaluru
 
 ## 📜 License
