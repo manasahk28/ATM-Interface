@@ -1,6 +1,6 @@
 # ATM Interface Project
 
-This project is a full-stack **ATM Interface Simulation**, developed as part of an academic project. It mimics the workflow of an ATM machine, from user login to performing transactions like withdrawal, balance inquiry, PIN change, and mini statement generation. This application uses **Java**, **Spring Boot**, **JDBC (MySQL)** for the backend, and **HTML/CSS/JS** for the frontend.
+This project is a full-stack **ATM Interface Simulation**, developed as part of an academic project. It mimics the workflow of an ATM machine, from user login to performing transactions like withdrawal, balance inquiry, PIN change, and mini statement generation. This application uses **Python**, **Flask**, **MySQL** for the backend, and **HTML/CSS/JS** for the frontend.
 
 ## 🌟 Features
 
@@ -13,16 +13,14 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
   - Change ATM PIN
   - Mini Statement
 - 🧠 PIN Verification
-- 🧾 Mini Statement History
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Java, Spring Boot, JDBC
+- **Backend:** Python, Flask
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL
 - **Testing:** JUnit (for backend)
 - **Version Control:** Git & GitHub
-- **Security:** Spring Security
 
 ## 📂 Project Structure
 
