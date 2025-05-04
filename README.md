@@ -25,19 +25,21 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
   - Git & GitHub for version control
 
 ## 📂 Project Structure
-   atm-interface/
-    │
-    ├── app.py # Main Flask app
-    ├── templates/ # HTML templates
-    │ ├── login.html
-    │ ├── dashboard.html
-    │ └── ...
-    ├── static/ # CSS, JS, images
-    ├── db_config.py # MySQL DB connection setup
-    ├── database/
-    │ └── schema.sql # SQL script to create tables
-    ├── README.md
-    └── requirements.txt # Python dependencies
+
+text
+atm-interface/
+├── app.py                 # Main Flask app
+├── templates/             # HTML templates
+│   ├── login.html
+│   ├── dashboard.html
+│   └── ...
+├── static/                # CSS, JS, images
+├── db_config.py           # MySQL DB connection setup
+├── database/
+│   └── schema.sql         # SQL script to create tables
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+
 
 ## ⚙️ Getting Started
 
