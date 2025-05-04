@@ -50,10 +50,10 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
     pip install -r requirements.txt
     
 ### ✅ 4. Setup MySQL Database
-    Open MySQL and create a new database:
+   ##### Open MySQL and create a new database:
 
     CREATE DATABASE atm_db;
-    Run the schema file to create tables and insert sample data:
+   ##### Run the schema file to create tables and insert sample data:
 
     mysql -u your_user -p atm_db < database/schema.sql
     
