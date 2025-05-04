@@ -26,7 +26,7 @@ This project is a full-stack **ATM Interface Simulation**, developed as part of 
 
 ## 📂 Project Structure
 
-text
+```text
 atm-interface/
 ├── app.py                 # Main Flask app
 ├── templates/             # HTML templates
@@ -39,7 +39,7 @@ atm-interface/
 │   └── schema.sql         # SQL script to create tables
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-
+```
 
 ## ⚙️ Getting Started
 
